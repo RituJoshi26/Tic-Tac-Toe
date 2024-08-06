@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-color: darkslategray;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border:none;
+    border-radius: 6px;
+    margin: 2px;
+    font-size: 35px;
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+background-color: rgb(205, 187, 50);
+cursor:pointer;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 320px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-family:cursive
+}
+#newgame{
+    height: 30px;
+    width:100px;
+    border-radius: 6px;
+    border: none;
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.833);
+    color:white;
+}
+#resetgame{
+    height: 30px;
+    width:100px;
+    border-radius: 6px;
+    border: none;
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.833);
+    color:white;
+}
+#winner{
+    color:rgb(4, 0, 255);
+    font-size: 20px;
+}
